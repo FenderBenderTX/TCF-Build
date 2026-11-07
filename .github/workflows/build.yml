@@ -1,8 +1,5 @@
-yaml
 name: Build VST3
-on:
-  workflow_dispatch:
-  push:
+on: [push, workflow_dispatch]
 jobs:
   build:
     strategy:
