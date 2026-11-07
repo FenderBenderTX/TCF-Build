@@ -25,7 +25,7 @@ juce_add_plugin(BBD_SCF04_Model
   VST3_CATEGORIES Fx Modulation)
 
 target_sources(BBD_SCF04_Model PRIVATE
-  Source/PluginProcessor.cpp Source/PluginProcessor.h Source/ScfEngine.h)
+  PluginProcessor.cpp PluginProcessor.h ScfEngine.h)
 
 target_compile_definitions(BBD_SCF04_Model PUBLIC
   JUCE_WEB_BROWSER=0 JUCE_USE_CURL=0 JUCE_VST3_CAN_REPLACE_VST2=0)
